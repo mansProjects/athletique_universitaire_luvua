@@ -1,0 +1,255 @@
+.anton-regular {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#f3f3f3 10%, #25a1e9 40%,#f55515);
+    background-repeat: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: auto;
+    user-select: none;
+}
+body header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+    width: 90%;
+    height: auto; 
+}
+body header .logo img{
+    rotate: 90deg;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+body header .hbd p{
+   text-align: center;
+   line-height: 60px;
+   font-family: "Lavishly Yours", serif;
+   font-weight: 550;
+   font-size: 4rem;
+   text-shadow: 0 0 rgb(7, 6, 6);
+}
+body header .hbd p span{
+    color: rgb(253, 175, 30);
+    text-shadow: 0 -.5px rgba(0, 0, 0, 0.445);
+    font-family: "Anton", serif;
+}
+body header .hbd-option{
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 50%;
+}
+body header .hbd-option .hbd-list{
+    list-style: none;
+    text-align: center;
+}
+body header .hbd-option .hbd-list li {
+    font-family: "Anton", serif;
+    background-color: rgb(253, 175, 30);
+    box-shadow:0 -.5px rgba(0, 0, 0, 0.445) ;
+    border-radius: 10px;
+    margin: 5px 0;
+    width: 100%;
+    color:#000 ;
+    transition: .5s;
+}
+body header .hbd-option .hbd-list li:hover{
+    box-shadow:0 .5px rgba(0, 0, 0, 0.445) ;
+    border-radius: 5px;
+    color:#ffffff ;
+    cursor: pointer;
+}
+
+/*------------------------PAGE INVITE-----------------------------*/
+
+body .header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+body .header .logo img{
+    rotate: 90deg;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+body .header .invite_name {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    background-color: #ffffff2d;
+    margin: 40px 0;
+}
+body .header .invite_name h1{
+    font-weight: 100;
+    color: #000000f1;
+    font-family: "Anton", serif;
+    font-size: 1rem;
+}
+body .header .invite_name h2{
+    font-weight: 500;
+    color: #000000f1;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Agency FB';
+}
+body .header .invite_name h1 span{
+    color: rgb(253, 175, 30);
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.445);
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+body .header .logo ,body .header .invite_name{
+    padding: 5px;   
+}
+body .popUp{
+    background-color: #da37376c;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: .5s;
+}
+body .hide{
+    display: none;
+}
+body .popUp .motDePass{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body .popUp .motDePass form{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+}
+body .popUp .motDePass form h1{
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 1rem;
+}
+body .popUp .motDePass form #password{
+    background: none;
+    border: .5px solid black;
+    border-radius: 5px;
+    background-color: #a5a3a3;
+    width: 200px;
+    padding: 5px;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+}
+body .popUp .motDePass form p{
+    color: #c40202;
+    text-align: center;
+    font-size: 1rem;
+}
+body .popUp .motDePass form #btn{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: #fa4f00;
+    color: #f3f3f3;
+    font-weight: 600;
+    border: none;
+}
+body .toGoogle{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+}
+body .toGoogle .toWhatsapp{
+    display: none;
+    /* align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%; */
+}
+body .toGoogle .presence{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    z-index: 1;
+}
+body .toGoogle .toWhatsapp p{
+    color: #f3eded;
+    background-color: #c40202;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+body .toGoogle .toWhatsapp span{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #fa4f00;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    z-index: -1;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;   
+}
+footer p{
+    margin: 10px 0;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-family: 'Agency FB';
+    color: #ffff;
+}
+/*---------------------------------PAGE ALLGUEST---------------------------- */
+
+body header .allguests{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 90%;
+    overflow-y: scroll;
+}
+body header .allguests ol li{
+    color: #000000;
+    margin: 10px 0;
+    font-weight: 400;
+    font-family: "Anton", serif;
+    letter-spacing: 2px;
+    
+}
+body header .allguests ol li a:hover{
+    color: #000;
+    cursor: pointer;
+}
+body header .allguests ol li a{
+    text-decoration: none;
+    color: #c40202;
+}
